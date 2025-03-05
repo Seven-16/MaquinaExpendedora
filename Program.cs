@@ -42,6 +42,15 @@ namespace MaquinaExpendedora
             snack.Stock -= cantidad;
             return $"Compra exitosa. Cambio: ${pago - costoTotal:F2}";
         }
+
+        public void MostrarInventario()
+        {
+            Console.WriteLine("\nInventario de la Máquina Expendedora:");
+            foreach (var snack in inventario.Values)
+            {
+                Console.WriteLine($"{snack.Nombre} - Precio: ${snack.Precio:F2} - Stock: {snack.Stock}");
+            }
+        }
     }
 
     class Program
@@ -49,18 +58,45 @@ namespace MaquinaExpendedora
         static void Main()
         {
             MaquinaDeSnacks maquina = new MaquinaDeSnacks();
+            bool salir = false;
 
-            Console.WriteLine("Ingrese el nombre del snack:");
-            string nombre = Console.ReadLine();
+            while (!salir)
+            {
+                Console.WriteLine("\nSeleccione una opción:");
+                Console.WriteLine("1. Comprar snack");
+                Console.WriteLine("2. Ver inventario");
+                Console.WriteLine("3. Salir");
+                string opcion = Console.ReadLine();
 
-            Console.WriteLine("Ingrese la cantidad:");
-            int cantidad = int.Parse(Console.ReadLine());
+                switch (opcion)
+                {
+                    case "1":
+                        Console.WriteLine("Ingrese el nombre del snack:");
+                        string nombre = Console.ReadLine();
 
-            Console.WriteLine("Ingrese el pago:");
-            double pago = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la cantidad:");
+                        int cantidad = int.Parse(Console.ReadLine());
 
-            string resultado = maquina.ComprarSnack(nombre, cantidad, pago);
-            Console.WriteLine(resultado);
+                        Console.WriteLine("Ingrese el pago:");
+                        double pago = double.Parse(Console.ReadLine());
+
+                        string resultado = maquina.ComprarSnack(nombre, cantidad, pago);
+                        Console.WriteLine(resultado);
+                        break;
+
+                    case "2":
+                        maquina.MostrarInventario();
+                        break;
+
+                    case "3":
+                        salir = true;
+                        break;
+
+                    default:
+                        Console.WriteLine("Opción no válida.");
+                        break;
+                }
+            }
         }
     }
 }
