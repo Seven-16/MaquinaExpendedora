@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\bin\Debug\net8.0\MaquinaExpendedora.exe
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\bin\Debug\net8.0\MaquinaExpendedora.deps.json
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\bin\Debug\net8.0\MaquinaExpendedora.runtimeconfig.json
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\bin\Debug\net8.0\MaquinaExpendedora.dll
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\bin\Debug\net8.0\MaquinaExpendedora.pdb
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\MaquinaExpendedora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\MaquinaExpendedora.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\MaquinaExpendedora.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\MaquinaExpendedora.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\MaquinaExpendedora.dll
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\refint\MaquinaExpendedora.dll
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\MaquinaExpendedora.pdb
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\MaquinaExpendedora.genruntimeconfig.cache
+C:\Users\User\OneDrive\Documentos\ITLA\Sexto Cuatrimestre\Ingenieria\MaquinaExpendedora\obj\Debug\net8.0\ref\MaquinaExpendedora.dll
